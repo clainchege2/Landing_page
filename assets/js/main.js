@@ -226,12 +226,6 @@
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
-  document.addEventListener("DOMContentLoaded", function() {
-    document.querySelectorAll('.social-links a').forEach(link => {
-      link.setAttribute('target', '_blank');
-      link.setAttribute('rel', 'noopener noreferrer');
-    });
-  });
   
 
 })();
